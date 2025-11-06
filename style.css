@@ -7,14 +7,14 @@ body {
 }
 
 header {
-  background: linear-gradient(90deg, #b30000, #ffcc00);
+  background: linear-gradient(200deg, #f5d547, #d99c2b, #a85d0a);
   text-align: center;
   padding: 25px 10px;
 }
 
 h1 {
   font-size: 2.2em;
-  color: #fff;
+  color: #2b1b00;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -106,5 +106,20 @@ footer {
   padding: 15px;
   margin-top: 40px;
   font-size: 0.9em;
+}
+
+.footer-social img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  transition: transform 0.3s, filter 0.4s;
+  opacity: 0.9;
+  margin: 0 12px;
+}
+
+.footer-social img:hover {
+  transform: scale(1.25);
+  filter: saturate(8) hue-rotate(10deg) brightness(1.4);
+  opacity: 1;
 }
 
